@@ -1,0 +1,13 @@
+{
+    "name": "Hello World Application",
+    "description": "Hello World Application",
+    "sources": [
+        {
+            "location": "/my-template/service.js.template",
+            "action": "generate",
+            "rename": "api/helloWorld-{{name}}.js",
+            "engine": "velocity",
+            "collection": "models"
+        }
+    ]
+}
